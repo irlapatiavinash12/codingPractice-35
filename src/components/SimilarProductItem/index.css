@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.list-item-styling {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 25vh;
+  padding: 20px;
+}
+
+.image-styling {
+  height: 60%;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.cost-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #3b82f6;
+  color: #ffffff;
+  justify-content: space-around;
+}
+
+.star-img-styling {
+  height: 14px;
+  width: 14px;
+}
